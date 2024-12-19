@@ -1,5 +1,7 @@
 #myfolders
 dci_venv/
+Background/
+input/
 
 .vscode/*
 !.vscode/settings.json
