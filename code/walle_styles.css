@@ -96,6 +96,10 @@ main {
     font-size: 18px;
     margin-bottom: 20px;
 }
+
+.lower_content{
+    float: right;
+}
 .browse-button {
     background-color: #ABFF00;
     color: #000;
@@ -114,10 +118,10 @@ main {
     margin-left: 8000px;
 }
 
-.globe img {
+.globe_img {
     border: 100% solid #ABFF00;
     border-radius: 100%;
-    max-width: 100%;
+    overflow: hidden;
     height: auto;
 }
 
@@ -134,4 +138,10 @@ footer p {
 
 .iaac {
     font-weight: bold;
+}
+#map { 
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    border: 100% solid #ABFF00;
 }
